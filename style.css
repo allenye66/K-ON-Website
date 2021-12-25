@@ -29,7 +29,7 @@
 	left: 0;
 	right: 0;
 	margin: auto;
-	width: 800px;
+	width: 1500px;
 }
 
 .picture {
@@ -46,7 +46,8 @@ figure img {
 	vertical-align: top;
 }
 
-figure figcaption {
+.caption {
+    margin-top: 10px; 
 	text-align: center;
 }
 
@@ -57,5 +58,5 @@ figure figcaption {
 #images {
 	margin: 0 auto;
 	min-height: 100vh;
-	width: 1000;
+	width: 1100;
 }
