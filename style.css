@@ -23,15 +23,13 @@
 }
 
 #paragraph {
-	position: relative;
 	top: 100px;
-	text-align: left;
+	text-align: center;
 	font-size: 20px;
-	float: left;
 	left: 0;
 	right: 0;
 	margin: auto;
-	width: 370px;
+	width: 800px;
 }
 
 .picture {
