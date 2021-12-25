@@ -1,62 +1,63 @@
-*{
-   /* border: 1px solid red; */
+* {
+	/* border: 1px solid red; */
 }
-#content{
-    
-    
+#title{
+    font-size: 50px;
 }
+.row {
+	display: flex;
+}
+
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+	flex: 33.33%;
+	padding: 5px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+#part {
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: auto;
+	width: 1500px;
+	height: auto;
 }
 
-#part{
-        left: 0;
-    right: 0;
-    margin: auto;
-    border: 1px solid red;
-    overflow:auto;
-    width: 1500px;
-    height: auto;
-
+#paragraph {
+	position: relative;
+	top: 100px;
+	text-align: left;
+	font-size: 20px;
+	float: left;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 370px;
 }
 
-#paragraph{
-    text-align: left;
-    font-size: 20px;
-    float:left;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 370px;
+.picture {
+	width: 500px;
+	height: auto;
 }
 
-.picture{
-    width: 500px;
-    height: auto;
-
-}
 figure {
-    display: inline-block;
-    margin: 20px; /* adjust as needed */
+	display: inline-block;
+	margin: 20px;
 }
-figure img {
-    vertical-align: top;
-}
-figure figcaption {
-    text-align: center;
-}
-#route{
 
+figure img {
+	vertical-align: top;
 }
-#poster{
-    
-    float: right;
+
+figure figcaption {
+	text-align: center;
+}
+
+#poster {
+	float: right;
+}
+
+#images {
+	margin: 0 auto;
+	min-height: 100vh;
+	width: 1000;
 }
