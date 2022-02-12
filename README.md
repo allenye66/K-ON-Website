@@ -1,2 +1,2 @@
 # K-ON-Website
-![](https://tenor.com/view/air-guitar-kon-anime-yui-hirasawa-gif-19100332)
+![yui](https://giphy.com/gifs/k-on-lena-yui-hirasawa-LCd3sJcqLgVqw)
